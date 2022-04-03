@@ -1,0 +1,17 @@
+.reviewHome {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+    margin: 20px;
+    text-align: justify;
+    display: flex;
+}
+
+.reviewImage {
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+
+.reviewer-info {
+    padding: 5px;
+}

@@ -2,36 +2,42 @@
     {
         "id": 1,
         "name": "Abdullah",
+        "img": "./images/man1.jpg",
         "review": "Yamaha offers a wide range of motorcycles that are well-built, high-performance.",
         "rating": "4.5 Stars"
     },
     {
         "id": 2,
         "name": "Abdur Rahman",
+        "img": "./images/man2.jpg",
         "review": "Yamaha motorcycles are considered such good bikes that they ranked the highest in a Consumer Reports.",
         "rating": "4.8 Stars"
     },
     {
         "id": 3,
         "name": "Abdur Rahim",
+        "img": "./images/man3.jpg",
         "review": "Due to their less advanced technology, Yamaha motorcycles are usually more affordable and easier to maintain.",
         "rating": "4.5 Stars"
     },
     {
         "id": 4,
         "name": "Ibrahim",
+        "img": "./images/man4.jpg",
         "review": "Easy to Ride, Comfortable and Fun.",
         "rating": "5 Stars"
     },
     {
         "id": 5,
         "name": "Omar",
+        "img": "./images/man5.jpg",
         "review": "If you are looking for a motorcycle that's fun to ride, you should consider Yamaha.",
         "rating": "4.8 Stars"
     },
     {
         "id": 6,
         "name": "Hasan",
+        "img": "./images/man6.jpg",
         "review": "Nice motorcycle but little bit overpriced.",
         "rating": "4 Stars"
     }
