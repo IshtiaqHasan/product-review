@@ -1,0 +1,10 @@
+.not-found h1 {
+    font-weight: 200;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 100px;
+}
+
+.four-o-four {
+    color: red;
+}
