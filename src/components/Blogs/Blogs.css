@@ -6,15 +6,18 @@
     margin-bottom: 40px;
 }
 
-.ques-ans-1 {
-    border: 1px solid lightgrey;
+.ques-ans-1,
+.ques-ans-2 {
     padding: 5px;
+    margin-top: 20px;
 }
 
-.ques-1 {
+.ques-1,
+.ques-2 {
     text-align: justify;
 }
 
-.que-1-paragraph {
+.que-1-paragraph,
+.que-2-paragraph {
     text-align: justify;
 }
