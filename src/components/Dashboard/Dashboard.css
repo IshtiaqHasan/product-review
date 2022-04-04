@@ -1,0 +1,20 @@
+.chartheading {
+    font-weight: 200;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 50px;
+}
+
+.chart {
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.lineChart {
+    padding: 20px;
+}
+
+.barChart {
+    padding: 20px;
+}
