@@ -2,7 +2,9 @@ import React from 'react';
 import './ReviewHome.css'
 
 const ReviewHome = (props) => {
+
     const { id, name, img, review, rating } = props.review;
+
     return (
         <div className='reviewHome'>
             <div>

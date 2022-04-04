@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import CustomersReview from '../../hooks/customersReview';
 import ReviewHome from '../ReviewHome/ReviewHome';
 import './Home.css';
@@ -6,6 +7,7 @@ import './Home.css';
 
 const Home = () => {
     const [reviews, setReviews] = CustomersReview();
+
     return (
         <div className='container' >
             <div className='Yamaha-home-text-and-image '>
@@ -20,15 +22,19 @@ const Home = () => {
             <div>
                 <h1 className='customer-reviews'>Customers Love <span className='text-danger'> YAMAHA</span></h1>
                 <div className='review-container'>
+
                     {
-                        reviews.map(review => <ReviewHome
+                        reviews.slice(0, 3).map(review => <ReviewHome
                             key={review.id}
                             review={review}
                         ></ReviewHome>)
                     }
                 </div>
-
             </div>
+            <div className='all-review-link'>
+                <Link className='all-reviews' to="/reviews">See All The Reviews</Link>
+            </div>
+
         </div>
     );
 };

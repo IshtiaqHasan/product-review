@@ -31,3 +31,24 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.all-review-link {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.all-reviews {
+    text-decoration: none;
+    border: 2px solid gray;
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    background-color: rgba(167, 8, 8, 0.829);
+    border-radius: 8px;
+
+}
+
+.all-reviews:hover {
+    color: white;
+}
