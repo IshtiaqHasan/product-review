@@ -1,0 +1,20 @@
+.ques-ans-heading {
+    font-weight: 200;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ques-ans-1 {
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
+
+.ques-1 {
+    text-align: justify;
+}
+
+.que-1-paragraph {
+    text-align: justify;
+}
